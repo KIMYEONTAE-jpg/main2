@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>화성, 가볼까?</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Malgun Gothic', sans-serif;
+      background-color: #f0f4f8;
+    }
+
+    header {
+      background-color: #2563eb;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .welcome {
+      margin: 20px;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      color: #2563eb;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      background-color: #eff6ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      margin-top: 10px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>화성, 가볼까?</header>
+  <div class="welcome">연태님, 환영합니다!</div>
+  <div class="grid">
+    <div class="card">화성, 갈까? <br>숙소 예매하기</div>
+    <div class="card">화성, 어땠어? <br>리뷰 작성하기</div>
+    <div class="card">화성, 맛볼래? <br>리뷰 보러가기</div>
+    <div class="card">화성, 이런건 어때? <br>이벤트</div>
+  </div>
+  <div class="nav">
+    <a href="#">로그아웃</a>
+    <a href="#">고객센터</a>
+  </div>
+  <footer>© 2025 화성 여행 정보 홈페이지</footer>
+</body>
+</html>
